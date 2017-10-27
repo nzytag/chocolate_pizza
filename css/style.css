@@ -1,14 +1,51 @@
 /*style goes here*/
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 34px;
+}
+
+section p {
+    text-indent: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.title_heading  {
+  font-family: 'Anton', sans-serif;
+  font-size: 26px;
+}
+.ingredients {
+  font-family: 'Patrick Hand', cursive;
+}
+.sub_heading {
+  font-size: 7px;
+}
+.main_banner {
+  width: 960px;
+}
+
 body {
   font-family: helvetica;
   width: 960px;
   margin: 0 auto;
 }
 
+.description {
+  text-align: justify;
+}
 
-
-.bar {
+.bar_top {
   text-align: center;
+  width: 960px;
+}
+
+.bar_down {
+  text-align: center;
+  width: 960px;
 }
 
 header section img {
