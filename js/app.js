@@ -23,6 +23,13 @@ list1item4.addEventListener('click', toggleCheckbox);
 list1item5.addEventListener('click', toggleCheckbox);
 list1item6.addEventListener('click', toggleCheckbox);
 
+list2item1.addEventListener('click', toggleCheckbox);
+list2item2.addEventListener('click', toggleCheckbox);
+list2item3.addEventListener('click', toggleCheckbox);
+list2item4.addEventListener('click', toggleCheckbox);
+list2item5.addEventListener('click', toggleCheckbox);
+list2item6.addEventListener('click', toggleCheckbox);
+
 function toggleCheckbox(e) {
   if (e.target.parentElement.getAttribute('class') === 'unchecked') {
     e.target.parentElement.setAttribute('class', 'checked');
