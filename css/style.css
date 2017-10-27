@@ -1,10 +1,10 @@
-/*style goes here */
+/*style goes here*/
 body {
   font-family: helvetica;
 }
 
 header {
-  /* width: 100%; */
+  /* width: 100%;*/ 
   background: #fff;
   height: 100px;
   margin-bottom: 30px;
