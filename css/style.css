@@ -13,7 +13,11 @@ h3 {
   display: inline;
 }
 p.comments_content{
-  margin-left: 75px;
+  margin-left: 85px;
+  max-width: 550px;
+  margin-top: 10px;
+
+
 }
 .bottom_logo img {
     text-align: center;
@@ -24,6 +28,7 @@ section p {
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
 header section p {
   font-size: 10px;
   margin-bottom: 0px;
@@ -34,6 +39,15 @@ header section p {
 nav {
   float: right;
 }
+nav ul li {
+  float: left;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.title a {
+  float: right;
+}
+
 
 .title_heading  {
   font-family: 'Anton', sans-serif;
@@ -57,6 +71,9 @@ nav {
 
 .sub_heading {
   font-size: 7px;
+  margin-left: -49px;
+  margin-top: 2px;
+  margin-bottom: -30px;
 }
 .main_banner {
   width: 960px;
@@ -85,12 +102,19 @@ body {
 
 .ingredients {
   display: auto;
-
 }
 
 .print_photo{
   float: right;
+  margin-top: 17px;
+  margin-right: -44px;
 }
+.print_text {
+  float: right;
+  font-size: 10px;
+  margin-top: 17px;
+}
+
 header section img {
   margin-top: 0px;
   clear: left;
@@ -108,8 +132,7 @@ main {
   text-align: center;
   width: 29px;
   margin-left: 15%;
-
-
+  background-image: url("");
 }
 button {
   font-size: 18px;
@@ -118,23 +141,27 @@ button {
   background-color: #B85036;
   color: white;
   float: right;
+  margin-top: -45px;
 }
 footer {
     height: 0;
     margin-bottom: 0;
     clear: both;
+    opacity: 0.4;
+    margin-top: -80px;
+
   }
 .footer_line1 {
   font-size: 10px;
   text-align: center;
   padding: 100px;
+
 }
 .footer_line2{
   font-size: 10px;
   text-align: center;
   padding: 100px;
   margin-top: -200px;
-
 }
 .checked {
   text-decoration: line-through;
@@ -142,4 +169,43 @@ footer {
 
 .unchecked {
   text-decoration: none;
+}
+
+.comment_avatar {
+  margin-bottom: -36px;
+  clear: both;
+  margin-right: 10px;
+}
+
+.comments_heading {
+  font-weight: bold;
+}
+
+.flourish {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  opacity: 0.4;
+}
+.flourish:before,
+.flourish:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 50%;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+.flourish:before {
+  right: 0em;
+  margin-left: -50%;
+}
+.flourish:after {
+  left: 0em;
+  margin-right: -50%;
+}
+
+img {
+  vertical-align: middle;
 }
