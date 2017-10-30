@@ -12,17 +12,22 @@ h1 {
 h3 {
   display: inline;
 }
+
+img {
+  vertical-align: middle;
+}
+
 p.comments_content{
   margin-left: 85px;
   max-width: 550px;
   margin-top: 10px;
-
-
 }
+
 .bottom_logo img {
     text-align: center;
     transform: translate(1100%, 150%);
 }
+
 section p {
     text-indent: 50px;
     margin-bottom: 15px;
@@ -36,23 +41,26 @@ header section p {
   margin-left: 0px;
   text-indent: 9px;
 }
+
 nav {
   float: right;
 }
+
 nav ul li {
   float: left;
   margin-top: -20px;
   margin-bottom: 20px;
 }
+
 .title a {
   float: right;
 }
-
 
 .title_heading  {
   font-family: 'Anton', sans-serif;
   font-size: 26px;
 }
+
 .ingredients {
   font-family: 'Patrick Hand', cursive;
   background-image: url("../images/list-bg.png");
@@ -64,6 +72,7 @@ nav ul li {
   display: inline;
   width: 49%;
 }
+
 .ingredients_list2 {
   display: inline;
   width: 49%;
@@ -75,6 +84,7 @@ nav ul li {
   margin-top: 2px;
   margin-bottom: -30px;
 }
+
 .main_banner {
   width: 960px;
 }
@@ -109,6 +119,7 @@ body {
   margin-top: 17px;
   margin-right: -44px;
 }
+
 .print_text {
   float: right;
   font-size: 10px;
@@ -120,6 +131,7 @@ header section img {
   clear: left;
   float: left;
 }
+
 ul li{
   display: block;
 }
@@ -128,6 +140,7 @@ main {
   width: 960px;
   margin: 30px auto;
 }
+
 .bottom_logo img {
   text-align: center;
   width: 29px;
@@ -186,14 +199,15 @@ footer {
   font-size: 10px;
   text-align: center;
   padding: 100px;
-
 }
+
 .footer_line2{
   font-size: 10px;
   text-align: center;
   padding: 100px;
   margin-top: -200px;
 }
+
 .checked {
   text-decoration: line-through;
 }
@@ -218,6 +232,7 @@ footer {
   text-align: center;
   opacity: 0.4;
 }
+
 .flourish:before,
 .flourish:after {
   content: "";
@@ -228,15 +243,13 @@ footer {
   border-top-style: solid;
   border-top-width: 1px;
 }
+
 .flourish:before {
   right: 0em;
   margin-left: -50%;
 }
+
 .flourish:after {
   left: 0em;
   margin-right: -50%;
-}
-
-img {
-  vertical-align: middle;
 }
