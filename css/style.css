@@ -21,6 +21,7 @@ p.comments_content{
   margin-left: 85px;
   max-width: 550px;
   margin-top: 10px;
+  line-height: inherit;
 }
 
 .bottom_logo img {
@@ -32,6 +33,7 @@ section p {
     text-indent: 50px;
     margin-bottom: 15px;
     margin-top: 15px;
+    line-height: 20px;
 }
 
 header section p {
@@ -50,6 +52,7 @@ nav ul li {
   float: left;
   margin-top: -20px;
   margin-bottom: 20px;
+  line-height: 20px;
 }
 
 .title a {
@@ -71,11 +74,13 @@ nav ul li {
   float: left;
   display: inline;
   width: 49%;
+  line-height: 20px;
 }
 
 .ingredients_list2 {
   display: inline;
   width: 49%;
+  line-height: 20px;
 }
 
 .sub_heading {
@@ -134,6 +139,7 @@ header section img {
 
 ul li{
   display: block;
+  line-height: 20px;
 }
 
 main {
@@ -210,10 +216,12 @@ footer {
 
 .checked {
   text-decoration: line-through;
+  line-height: 20px;
 }
 
 .unchecked {
   text-decoration: none;
+  line-height: 20px;
 }
 
 .comment_avatar {
